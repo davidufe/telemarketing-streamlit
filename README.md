@@ -6,6 +6,9 @@ Um simples resumo do uso/propósito do projeto.
 
 Um parágrafo aprofundando mais sobre o seu projeto e uma explicação geral do uso.
 
+##Link Para Aplicação (LIVE)
+https://telemarketing-streamlit-7o7z.onrender.com/
+
 ## Utilização
 
 ### Dependencias
@@ -37,8 +40,8 @@ comando para rodar se o programa tiver uma informação de ajuda
 
 Nomes dos desenvolvedores do projeto e informação para entrar em contato.
 
-ex. Lucas Serra  
-ex. [@LucasSerra](https://www.linkedin.com/in/lucasserra03/)
+ Davi Dutra 
+ [@davidufe](https://www.linkedin.com/in/davidufe/)
 
 ## Histórico de versões.
 
