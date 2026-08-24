@@ -1,65 +1,32 @@
-# Título do projeto
+# Telemarketing Streamlit
 
-Um simples resumo do uso/propósito do projeto.
+Painel interativo em Streamlit para análise de campanhas de telemarketing bancário.
 
-## Descrição do projeto
+## Sobre
 
-Um parágrafo aprofundando mais sobre o seu projeto e uma explicação geral do uso.
+A aplicação permite filtrar a base de clientes de uma campanha de telemarketing bancário por idade, profissão, estado civil, default, financiamento imobiliário, empréstimo, meio e mês de contato, comparando a proporção de aceite da oferta antes e depois dos filtros aplicados, com gráficos de barras ou pizza e exportação dos dados filtrados para Excel.
 
-##Link Para Aplicação (LIVE)
-https://telemarketing-streamlit-7o7z.onrender.com/
+**Deploy:** [telemarketing-streamlit-7o7z.onrender.com](https://telemarketing-streamlit-7o7z.onrender.com/)
 
-## Utilização
+## Tecnologias
 
-### Dependencias
+`Python` `Streamlit` `pandas` `Seaborn` `Matplotlib`
 
-* Descreve quaisquer prerequisitos, bibliotecas, versão do SO, etc., que é necessário para rodar o projeto.
-* exemplo. Windows 10...
+## Estrutura do repositório
 
-### Instalação
+- `app_7.py`
+- `requirements.txt`
+- `bank-additional.csv` — exemplo de base de entrada
+- `Bank-Branding.jpg`, `telmarketing_icon.png` — recursos visuais da interface
 
-* Como/aonde fazer o download do seu projeto/programa
-* Quaisquer modificação necessária nos arquivos/diretórios
+## Como executar
 
-### Executando o projeto
-
-* Como rodar o projeto/programa
-* Passo a passo em tópicos (bullet points)
-```
-bloco de código para os comandos necessários
+```bash
+pip install -r requirements.txt
+streamlit run app_7.py
 ```
 
-## Ajuda
+## Autor
 
-Qualquer ponto importante de problemas ou erros comuns
-```
-comando para rodar se o programa tiver uma informação de ajuda
-```
-
-## Autores
-
-Nomes dos desenvolvedores do projeto e informação para entrar em contato.
-
- Davi Dutra 
- [@davidufe](https://www.linkedin.com/in/davidufe/)
-
-## Histórico de versões.
-
-* 0.2
-	* Ajustes de diversos bugs e otimização
-* 0.1
-    * Primeira versão
-
-## Licença de uso
-
-Esse projeto possui licença de uso [NAME HERE] - acesse o arquivo LICENSE.md para mais detalhes.
-
-## Fontes de inspiração
-
-Inspiração, trechos de códigos utilizados, etc.
-* [readme-template](https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc)
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+Davi Dutra Ferreira
+[LinkedIn](https://www.linkedin.com/in/davidufe)
